@@ -9,7 +9,15 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			//Write your code here
+			let m=-Infinity
+			let x=-Infinity
+			for( let let a of arr){
+				if(a>x){
+					m=x;
+					x=a;					
+				}
+			}
+			return m
 			
 		}
 
